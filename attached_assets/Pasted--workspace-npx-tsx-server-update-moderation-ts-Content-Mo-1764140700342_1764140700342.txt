@@ -1,0 +1,57 @@
+~/workspace$ npx tsx server/update-moderation.ts
+========================================
+Content Moderation Update Script
+========================================
+
+Starting moderation check for all posts...
+Found 15 posts to check
+Checking post: 87bfbb66-05bf-4ac3-aac1-3d015d98551c - 욕설 테스트
+[Moderation] Checking content (attempt 1/3)...
+[Moderation] Error on attempt 1, retrying...
+[Moderation] Checking content (attempt 2/3)...
+[Moderation] Error on attempt 2, retrying...
+[Moderation] Checking content (attempt 3/3)...
+[Moderation] Raw stdout: Loaded as API: https://samyeool-kookmin-project.hf.space ✔
+{"isFlagged": true, "moderationScore": "0.9904372096061707", "moderationReason": "\ud83d\udea8 \uc545\uc131"}
+
+[Moderation] Parsed result: {
+  isFlagged: true,
+  moderationScore: '0.9904372096061707',
+  moderationReason: '🚨 악성'
+}
+✓ Updated post 87bfbb66-05bf-4ac3-aac1-3d015d98551c: FLAGGED (99.0%)
+Checking post: 351ca0c5-cfe3-49e1-8c91-88a983e3f831 - 패드립 테스트
+[Moderation] Checking content (attempt 1/3)...
+[Moderation] Raw stdout: Loaded as API: https://samyeool-kookmin-project.hf.space ✔
+{"isFlagged": true, "moderationScore": "0.9877523183822632", "moderationReason": "\ud83d\udea8 \uc545\uc131"}
+
+[Moderation] Parsed result: {
+  isFlagged: true,
+  moderationScore: '0.9877523183822632',
+  moderationReason: '🚨 악성'
+}
+✓ Updated post 351ca0c5-cfe3-49e1-8c91-88a983e3f831: FLAGGED (98.8%)
+Checking post: f06e5533-b116-48ac-be48-11e3c9f91fc9 - 혐오 표현
+[Moderation] Checking content (attempt 1/3)...
+[Moderation] Raw stdout: Loaded as API: https://samyeool-kookmin-project.hf.space ✔
+{"isFlagged": true, "moderationScore": "0.988131046295166", "moderationReason": "\ud83d\udea8 \uc545\uc131"}
+
+[Moderation] Parsed result: {
+  isFlagged: true,
+  moderationScore: '0.988131046295166',
+  moderationReason: '🚨 악성'
+}
+✓ Updated post f06e5533-b116-48ac-be48-11e3c9f91fc9: FLAGGED (98.8%)
+Checking post: 41ee3c95-0d01-4db9-9fed-1e33f626a5e8 - 욕설 비난 테스트
+[Moderation] Checking content (attempt 1/3)...
+[Moderation] Raw stdout: Loaded as API: https://samyeool-kookmin-project.hf.space ✔
+{"isFlagged": true, "moderationScore": "0.9902032613754272", "moderationReason": "\ud83d\udea8 \uc545\uc131"}
+
+[Moderation] Parsed result: {
+  isFlagged: true,
+  moderationScore: '0.9902032613754272',
+  moderationReason: '🚨 악성'
+}
+✓ Updated post 41ee3c95-0d01-4db9-9fed-1e33f626a5e8: FLAGGED (99.0%)
+Checking post: 0537cba1-a3e4-4e08-926e-4882ec775722 - test
+[Moderation] Checking content (attempt 1/3)...

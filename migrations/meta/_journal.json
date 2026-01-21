@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1763962013661,
+      "tag": "0000_overrated_luminals",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1763962794788,
+      "tag": "0001_steep_mandroid",
+      "breakpoints": true
+    }
+  ]
+}
